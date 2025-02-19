@@ -101,7 +101,7 @@ const Contact: React.FC = () => {
                     id="name"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block w-full p-2 rounded-md border-[1px] border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                   />
                 </div>
                 <div>
@@ -113,7 +113,7 @@ const Contact: React.FC = () => {
                     id="email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block w-full p-2 rounded-md border-[1px] border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                   />
                 </div>
               </div>
@@ -126,7 +126,7 @@ const Contact: React.FC = () => {
                   id="serviceType"
                   value={formData.serviceType}
                   onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full p-2 rounded-md border-[1px] border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 >
                   <option value="">Select a service</option>
                   <option value="general-consultation">General Consultation</option>
@@ -148,7 +148,7 @@ const Contact: React.FC = () => {
                     id="preferredDate"
                     value={formData.preferredDate}
                     onChange={(e) => setFormData({ ...formData, preferredDate: e.target.value })}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block w-full p-2 rounded-md border-[1px] border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                   />
                 </div>
                 <div>
@@ -159,7 +159,7 @@ const Contact: React.FC = () => {
                     id="preferredTime"
                     value={formData.preferredTime}
                     onChange={(e) => setFormData({ ...formData, preferredTime: e.target.value })}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block w-full p-2 rounded-md  border-[1px] border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                   >
                     <option value="">Select a time</option>
                     <option value="9:00">9:00 AM</option>
@@ -181,7 +181,7 @@ const Contact: React.FC = () => {
                   rows={4}
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full px-4 py-3 rounded-md border-[1px] border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 />
               </div>
 
