@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, Menu, X } from 'lucide-react';
+import { ArrowRight, ChevronDown, Menu, X } from 'lucide-react';
 
 // Define the structure of the navigation links
 interface NavLinks {
@@ -81,6 +81,10 @@ const Navbar: React.FC = () => {
                 )}
               </div>
             ))}
+            <button className="flex items-center justify-center gap-2 bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                Get Started
+                <ArrowRight className="w-5 h-5" />
+              </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -125,6 +129,11 @@ const Navbar: React.FC = () => {
                 )}
               </div>
             ))}
+
+            <button className="flex items-center justify-center gap-2 bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+              Get Started
+              <ArrowRight className="w-5 h-5" />
+            </button>
           </div>
         )}
       </div>
