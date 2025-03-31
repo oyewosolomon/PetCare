@@ -45,20 +45,6 @@ export default function Home() {
       <FeaturesSection/>
       <PricingSection/>
       <AppDownloadSection/>
-      {/* <CaseStudiesSection/> */}
-      {/* <AboutSection/> */}
-      {/* <ServicesSection/>
-      <ServicesCategory/> */}
-     
-      {/* <Features/> */}
-      {/* <HowItWorks/>
-      <TrustSafety/>
-      <Partners/>
-      <FAQSection/> */}
-
-      {/* <PricingSection/> */}
-      <Testimonials/>
-
 
       <Contact/>
       <Footer/>
