@@ -5,7 +5,7 @@ const PricingSection = () => {
   const plans = [
     {
       name: "Basic Care",
-      price: "29",
+      price: "45,000",
       description: "Essential care for single pet owners",
       features: [
         "24/7 Chat Support",
@@ -18,7 +18,7 @@ const PricingSection = () => {
     },
     {
       name: "Premium Care",
-      price: "49",
+      price: "150,000",
       description: "Complete care for dedicated pet parents",
       features: [
         "Unlimited Video Consultations",
@@ -33,7 +33,7 @@ const PricingSection = () => {
     },
     {
       name: "Family Plan",
-      price: "79",
+      price: "200,000",
       description: "Perfect for multiple pets",
       features: [
         "All Premium Features",
@@ -89,7 +89,7 @@ const PricingSection = () => {
                 </p>
                 <div className="flex items-center justify-center">
                   <span className="text-4xl font-bold text-gray-900">
-                    ${plan.price}
+                  ₦{plan.price}
                   </span>
                   <span className="text-gray-600 ml-2">/month</span>
                 </div>
